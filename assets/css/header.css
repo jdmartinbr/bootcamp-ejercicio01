@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    color: #fff;
+}
+
+header {
+    height: 100%;
+}
+.mg-10 {
+    padding: 0.5em 0.5em;
+}
+.navbar {
+    z-index: 9;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+}
+.navbar-center
+{
+    left: auto;
+    text-align: center;
+    margin:0 auto;
+}
+.nav-link {
+    color: rgba(255,255,255,0.5) !important;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,1) !important;
+}
+
+.nav-link.active {
+    color: rgba(255,255,255,1) !important;
+}
+
+.navbar-rrss {
+    color: white !important;
+    text-align: right;
+}
+
+.fa-facebook-f:hover{
+    color: #3b5998;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    margin: auto 3px;
+    width: 40px;
+    text-align: center;
+}
+.fa-twitter:hover, .fa-youtube:hover, .fa-instagram:hover, .fa-linkedin:hover{
+    color: #00aced;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.5em;
+}
+.fa-youtube:hover {
+    color: red !important;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5 !important;
+}
+
+.fa-instagram:hover {
+    color: #833AB4 !important;
+}
+
+.fab {
+    background-color: transparent;
+    border-radius: 50%;
+    height: 40px;
+    margin: auto 3px;
+    width: 40px;
+    text-align: center;
+}
+
+.carousel-inner {
+    height: 100%;
+    display: flex;
+}
+
+/*.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img{
+    position: absolute;
+    top: -25%;
+}*/
+
+.carousel-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-01{
+    background-color: #555555;
+    background-image: url('../images/nathan-anderson-316188-unsplash.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cabecera{
+    background-color: #555555;
+    background-image: url('../images/nathan-anderson-316188-unsplash.jpg');
+    height: 100%;
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title h1 {
+    font-size: 10em;
+}
+.header-title h6 {
+    font-size: 4em;
+}
+
+.header-button {
+    color: rgb(50,50,50);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header-button h1{
+    background-color: rgba(255,255,255,0.5);
+    text-align: center !important;
+    margin: 20px auto 0px auto;
+    padding: 10px 30px 15px 30px;
+    border: white 3px solid;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 29px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 29px -4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 29px -4px rgba(0,0,0,0.75);
+}
+.header-button h1:hover{
+    background-color: rgba(255,255,255,1);
+}
