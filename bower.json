@@ -1,0 +1,21 @@
+{
+  "name": "Actividad_1",
+  "homepage": "https://github.com/jdmartinbr/bootcamp-ejercicio01",
+  "authors": [
+    "jdmartinbr <jd.martinbr@gmail.com>"
+  ],
+  "description": "SPA Agencia de Viajes",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
+  }
+}
