@@ -2,11 +2,15 @@ html, body {
     height: 100%;
     min-height: 100%;
     position: relative;
-    color: #fff;
+    /*color: #fff;*/
 }
 
 header {
     height: 100%;
+}
+
+p {
+    margin-bottom: 0px;
 }
 .mg-10 {
     padding: 0.5em 0.5em;
@@ -45,6 +49,10 @@ header {
 .navbar-rrss {
     color: white !important;
     text-align: right;
+}
+
+.menu-icon {
+    color: white !important;
 }
 
 .fa-facebook-f:hover{
@@ -105,6 +113,10 @@ header {
     align-items: center;
 }
 
+.carousel {
+    color: white !important;
+}
+
 .slider-01{
     background-color: #555555;
     background-image: url('../images/nathan-anderson-316188-unsplash.jpg');
@@ -112,6 +124,33 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.slider-02{
+    background-color: #555555;
+    background-image: url('../images/16083767_ml.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.input-destinos, .btn-destinos {
+    height: 3em;
+}
+
+.input-destinos{
+    margin-top: 20px;
+}
+
+.input-group-btn {
+    width: 25%;
+}
+
+.btn-destinos {
+    border-top-left-radius: 0rem!important;
+    border-bottom-left-radius: 0rem!important;
+    width: 100%;
 }
 
 .cabecera{
@@ -122,6 +161,10 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.header-title {
+    text-align: center;
 }
 
 .header-title h1 {
@@ -152,3 +195,82 @@ header {
 .header-button h1:hover{
     background-color: rgba(255,255,255,1);
 }
+
+.wrapper {
+    background-color: ghostwhite;
+}
+.container-destinos {
+    padding: 40px 0px;
+}
+
+.destino {
+    background-color: white;
+    background-image: url('../images/irlanda.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 10px 0px 0px 0px;
+    height: 300px;
+    border-color: #e6e6e6;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    /*-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);*/
+}
+
+.descripcion-destino {
+    background-color: white;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+    border-color: #e6e6e6;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    /*-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);*/
+}
+
+.far{
+    color: #d6d6d6;
+    font-size: 1.5em;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0.5em 0.5em;
+    float: right;
+}
+
+.far:hover{
+    color: red;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+}
+
+.fa-euro-sign {
+    color: #d6d6d6;
+    font-size: 1.5em;
+    background-color: white;
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    float: left;
+}
+
+.price{
+    font-size: 2em;
+    color: white;
+    border: white 2px solid;
+    background-color: rgba(0,0,0,0.3);
+    font-weight: 700;
+    text-align: center;
+    padding: 0.1em 0.5em;
+}
+
+/*@media (min-width: 576px) {*/
+
+    .row {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+/*}*/
