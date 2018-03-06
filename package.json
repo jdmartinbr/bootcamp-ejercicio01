@@ -1,0 +1,28 @@
+{
+  "name": "actividad_1",
+  "version": "1.0.0",
+  "description": "Proyecto web - Bootcamp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmartinbr/bootcamp-ejercicio01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jdmartinbr/bootcamp-ejercicio01/issues"
+  },
+  "homepage": "https://github.com/jdmartinbr/bootcamp-ejercicio01#readme",
+  "devDependencies": {
+    "gulp-clean-css": "^3.9.2"
+  }
+}

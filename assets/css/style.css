@@ -233,6 +233,17 @@ iframe {
     border-width: 1px 1px 0px 1px;
     border-style: solid;
 }
+
+.destinos-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease-in-out;
+}
+.is-showing {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 .destino-irlanda {
     background-image: url('../images/irlanda.jpg');
     background-color: white;
@@ -255,6 +266,20 @@ iframe {
 
 .destino-pekin {
     background-image: url('../images/pekin.jpg');
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.destino-india {
+    background-image: url('../images/india.jpg');
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.destino-cartagena {
+    background-image: url('../images/cartagena.jpg');
     background-color: white;
     background-size: cover;
     background-position: center;

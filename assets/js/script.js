@@ -11,31 +11,32 @@ $(document).ready(function () {
         if($(window).scrollTop()) {
             $('nav').addClass('nav-scroll');
             $('#main-menu').addClass('menu-scroll');
-        }
-        else {
+        } else {
             if ($("#menu-toggler").attr("aria-expanded")==="false") {
-
-                console.log("estoy en 0")
                 $('nav').removeClass('nav-scroll');
                 $('#main-menu').removeClass('menu-scroll');
             };
         };
     });
 
-
-
-/*&& !($("#menu-toggler").attr("aria-expanded"))*/
+    $(window).on('scroll', function () {
+        var wScroll = $(this).scrollTop();
+        if (wScroll > $('.destinos-items').offset().top - ($(window).height() / 1.2)){
+            $('.destinos-items .destinos-item').each(function (i) {
+                setTimeout(function () {
+                    $('.destinos-items .destinos-item').eq(i).addClass('is-showing');
+                }, 300 * (i + 1));
+            });
+        };
+    });
 
     var pressed = true;
-
-
     $("#menu-toggler").click(function () {
         var altura = $(window).scrollTop();
 
         if (altura === 0) {
             if ($("#menu-toggler").attr("aria-expanded")==="false") {
                 pressed = false;
-                console.log("true")
                 $('nav').addClass('nav-scroll');
                 $('#main-menu').addClass('menu-scroll');
             } else {
@@ -50,7 +51,7 @@ $(document).ready(function () {
         $(this).toggleClass('material-heart-red')
     });
 
-    $('#heartt').on('click', function () {
+    $('.heartt').on('click', function () {
         $(this).toggleClass('material-heart-red2')
     });
 
@@ -62,9 +63,7 @@ $(document).ready(function () {
         }
     });
 
-
     $('#totop').click(function () {
-        console.log("hola");
         $("html, body").animate({scrollTop: 0}, 600);
     });
 
