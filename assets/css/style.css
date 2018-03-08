@@ -473,7 +473,41 @@ iframe {
     width: 55px;
     color: white!important;
 }
-
+.aboutus .container{
+    position: relative;
+    color: white;
+}
+.aboutus .quien{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.aboutus .lema {
+    position: absolute;
+    top: 30%;
+    margin-left: 10px;
+    text-align: center;
+}
+.limpia{
+    float: none;
+}
+footer .pie {
+    background:#012359;
+    color: white;
+}
+footer .row {
+    padding-top: 15px;
+}
+footer .textpeq {
+    font-size: small;
+    text-align: center;
+}
+aboutus ul {
+    list-style: none;
+}
+footer ul {
+    list-style: none !important;
+}
 /* Media Querys*/
 
 @media (min-width: 576px) {
