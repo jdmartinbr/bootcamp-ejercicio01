@@ -16,6 +16,7 @@
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-image-optimization": "^0.1.3",
     "gulp-uglify": "^3.0.0"
   },
   "bugs": {
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/jdmartinbr/bootcamp-ejercicio01#readme",
   "devDependencies": {
-    "gulp-clean-css": "^3.9.2"
+    "gulp-clean-css": "^3.9.2",
+    "gulp-imagemin": "^4.1.0"
   }
 }
